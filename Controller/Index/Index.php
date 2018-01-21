@@ -1,6 +1,6 @@
 <?php
 
-namespace Modul\Helloworld\Controller\Index;
+namespace Modul\HelloWorld\Controller\Index;
 
 use Magento\Framework\App\Action\Context;
 
