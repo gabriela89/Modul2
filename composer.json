@@ -1,20 +1,21 @@
+
 {
-  "name": "modul/helloworld",
-  "description": "N/A",
-  "require": {
-    "php": "~5.6.0|7.0.2|7.0.4|~7.0.6|~7.1.0",
-    "magento/framework": "^100.1.0|^101.0.0",
-    "magento/module-theme": "^100.1.0| ^100.2.0"
-  },
-  "type": "magento2-module",
-  "version": "1.0.0",
-  "license": [
-    "OSL-3.0",
-    "AFL-3.0"
+  "name": "Modul/HelloWorld",
+  "description": "The module with the menu and other features needed by other modules developed by EaDesign",
+
+  "authors": [
+    {
+      "name": "Gabriela",
+      "email": "gabriela.dohotariu@eadesign.ro",
+      "homepage": "http://magento-project.ro",
+      "role": "Developer"
+    }
   ],
-  "autoload": {
-    "files": [
-      "registration.php"
-    ]
-  }
+  "require": {
+    "php": "~5.6.0|~7.0.0|~7.0.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.5"
+  },
+  "minimum-stability": "dev"
 }
